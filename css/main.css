@@ -58,6 +58,7 @@ td {
 
 .category-blurb {
 	text-indent: .5em;
+	margin-bottom: 0;
 }
 
 /* ---- Layout ---- */
