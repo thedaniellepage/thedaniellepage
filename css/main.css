@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
+	margin: 0;
 }
 
 
@@ -13,7 +14,6 @@ body {
 
 p {
 	margin-bottom: .5em;
-	margin-top: 0 !important; 
 	max-width: 35em;
 }
 
