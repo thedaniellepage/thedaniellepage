@@ -62,6 +62,7 @@ td {
 .link-button {
   background-color:#F8724D;
   padding:.25em .5em;
+  margin-right:.5em;
   border-radius:5px;
   box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
   border:1px solid black;
