@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
-	margin: 0 !important;
+	margin: 0;
 }
 
 
@@ -59,7 +59,7 @@ td {
 
 .category-blurb {
 	text-indent: .5em;
-	margin-bottom: 0;
+	margin-top: 0 !important;
 }
 
 /* ---- Layout ---- */
