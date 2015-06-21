@@ -180,7 +180,7 @@ td {
 }
 
 .nav-link:hover {
-
+	background-color: rgba(248, 114, 77, .5);
 }
 
 .nav-link.active {
