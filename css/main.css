@@ -214,12 +214,12 @@ td {
 	text-align:center;
 }
 
-.site-footer {
+#site-footer {
 	height: 180px;
 	margin-top:3em;
-	background-color:#005252;
+	background-color:gray;
 	padding:2em 0;
-	color:white;
+	color:black;
 }
 
 /* Utilities */
