@@ -154,7 +154,7 @@ td {
 	margin-bottom:.5em;
 }
 
-@media (min-width:620px){
+@media (min-width:860px){
 	.header-nav li {
 		display:inline-block;
 	}
