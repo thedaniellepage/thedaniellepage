@@ -79,6 +79,10 @@ td {
 	margin: 0 auto .7em auto;
 }
 
+.arrow {
+	width:50px;
+}
+
 /* ---- Layout ---- */
 
 .container {
