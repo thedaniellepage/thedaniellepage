@@ -1,0 +1,10 @@
+# Site settings
+title: Danielle Page
+email: thedaniellepage@gmail.com
+description:
+url: http://thedaniellepage.github.io
+github_username: thedaniellepage
+
+# Build settings
+markdown: kramdown
+permalink: pretty
