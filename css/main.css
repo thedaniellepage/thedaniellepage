@@ -65,6 +65,17 @@ a:hover {
 	margin-right: auto;
 }
 
+#wrap {
+	min-height:100%;
+}
+
+#main {
+	overflow:auto;
+	padding bottom:180px;
+	background-color:white;
+	min-height:800px;
+}
+
 @media (max-width:1050px){
 	.container {
 		padding-left:1em;
