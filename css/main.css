@@ -3,6 +3,10 @@
 	src: url(/fonts/gabriele-br.TTF);
 }
 
+@font-face {
+	font-family: bodyText;
+	src: url(/fonts/MankSans-Medium.ttf);
+}
 
 * {
 	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
@@ -10,7 +14,7 @@
 
 
 body {
-  font-family: 'Open Sans', serif;
+  font-family: bodyText, serif;
   font-weight: 400;
   line-height: 1.5;
   color: black;
