@@ -59,6 +59,10 @@ a:hover {
 	margin: 0 auto;
 }
 
+.category-image {
+	border-radius: 5px;
+}
+
 td {
 	padding: 1.5em;
 }
