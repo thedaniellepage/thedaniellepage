@@ -12,7 +12,6 @@ body {
 }
 
 p {
-	margin-bottom: .5em;
 	max-width: 35em;
 }
 
@@ -35,8 +34,7 @@ h4 {font-size: 1.2em;}
 
 small, .font_small {font-size: 0.833em;}
 
-a {
-	color:red;
+a { color:black;
 	text-decoration:none;
 }
 
@@ -59,6 +57,19 @@ td {
 .category-blurb {
 	text-indent: .5em;
 	margin-top: 0 !important;
+}
+
+.link-button {
+  background-color:#F8724D;
+  padding:.25em .5em;
+  border-radius:5px;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
+  border:1px solid black;
+}
+
+.button-style {
+	text-align:right;
+	margin: 0 auto .7em auto;
 }
 
 /* ---- Layout ---- */
