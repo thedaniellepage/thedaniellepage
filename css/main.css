@@ -176,7 +176,7 @@ td {
 }
 
 .nav-link.active {
-
+	text-decoration:underline;
 }
 
 .nav-link.active:hover {
