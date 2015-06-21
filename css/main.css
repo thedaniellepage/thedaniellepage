@@ -53,8 +53,8 @@ a:hover {
 	border: 1px solid black;
 }
 
-.categories > tr > td {
-	padding: 2em;
+td {
+	padding: 1em;
 }
 
 .category-blurb {
