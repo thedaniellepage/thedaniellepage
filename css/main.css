@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
-	margin: 0;
 }
 
 
