@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-  /* $(".dropdown-link").mouseenter(function(){
+  $(".dropdown-link").mouseenter(function(){
     $(".dropdown-menu").slideDown(500);
   });
 
@@ -13,21 +13,5 @@ $(document).ready(function(){
 
   $('.dropdown-menu').mouseenter(function() {
         $(".dropdown-menu").show();
-    }); */
+    }); 
 
-
-  $('dropdown-link').hover(function() {
-        $('.dropdown-menu').slideDown(500);
-    }, function() {
-        $('.dropdown-menu').slideDown(500);
-    });
-
-    $('.dropdown-menu').mouseenter(function() {
-        $(this).show();
-    });
-
-    $('.dropdown-menu').mouseleave(function() {
-        $(this).hide();
-    });
-
-});
