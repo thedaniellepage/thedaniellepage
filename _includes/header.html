@@ -3,19 +3,20 @@
         <a class="site-title" href="{{site.url}}">Danielle Page</a>
         <nav class="navbar">
             <ul class="header-nav">
-                {% for link in site.data.nav %}
-                    {% if link.subcategories != null %}
-                        <li>
-                            <a href="{{ site.url }}{{ link.url }}" class="nav-link{% if nav.title == page.title %}active{% endif %}">{{ link.title }}</a>
-                                <ul class="dropdown-menu”>
-                                    {% for subcategory in link.subcategories %}
-                                        <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-                                </ul>
-                                    {% endfor %}
-                        </li>
-                    {% else %}
-                        <li><a class="nav-link{% if nav.title == page.title %}active{% endif %}" href="{{ site.url }}{{ link.href }}">{{ link.title }}</a></li>
-                {% endfor %}
+                <li><a class="nav-link" href="{{site.url}}/about.html">About</a></li>
+                <li><a class="nav-link" href="{{site.url}}/published-work.html">Published Work</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/sex-dating-relationships.html">Sex, Dating &amp; Relationships</a></li>
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/food.html">Food</a></li>
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/health-and-fitness.html">Health &amp; Fitness</a></li>
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/beauty.html">Beauty</a></li>
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/technology.html">Technology</a></li>
+                        <li><a class="nav-link sub-link" href="{{site.url}}/published-work/miscellaneous.html">Miscellaneous</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="{{site.url}}/editing-services.html">Editing Services</a></li>
+                <li><a class="nav-link" href="{{site.url}}/blog.html">Blog</a></li>
+                <li><a class="nav-link" href="{{site.url}}/contact.html">Contact</a></li>
             </ul>
         </nav>
     </div> <!-- / container -->
