@@ -170,7 +170,7 @@ td {
 .sub-link {
 	display:block;
 	color:black;
-	padding:1em;
+	padding:0 1em;
 }
 
 .header-nav li ul li {
