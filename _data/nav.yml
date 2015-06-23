@@ -1,0 +1,27 @@
+- title: "About"
+  href: "/about/
+
+- title: "Published Work"
+  href: "/"
+  subcategories:
+    - subtitle: "Sex, Dating, & Relationships"
+      subhref: "/sex-dating-relationships/"
+    - subtitle: "Food"
+      subhref: "/food/"
+    - subtitle: "Health & Fitness"
+      subhref: "/health-and-fitness/"
+    - subtitle: "Beauty"
+      subhref: "/beauty/"
+    - subtitle: "Technology"
+      subhref: "/technology/"
+    - subtitle: "Miscellaneous"
+      subhref: "/misc/"
+ 
+- title: "Editing Services"
+  href: "/editing-services/
+ 
+- title: "Blog"
+  href: "/blog/"
+ 
+- title: "Contact"
+  href: "/contact/"
