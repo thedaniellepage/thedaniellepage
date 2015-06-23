@@ -168,6 +168,11 @@ td {
 	border-top:1px solid black;
 }
 
+.sub-link {
+	display:block;
+	color:white;
+}
+
 .header-nav li ul li {
 	display:block;
 	float:none;
