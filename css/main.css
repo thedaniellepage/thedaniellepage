@@ -104,7 +104,6 @@ td {
 }
 
 #main {
-	overflow:auto;
 	padding bottom:180px;
 	background-color:white;
 	min-height:800px;
