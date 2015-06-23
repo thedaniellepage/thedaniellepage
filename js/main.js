@@ -11,8 +11,8 @@ $(document).ready(function(){
     $(".dropdown-menu").slideUp(500);
   });
 
-  $('.dropdown-menu').mouseenter(function() {
-        $(".dropdown-menu").show();
+  $('.nav-link').mouseenter(function() {
+        $(".dropdown-menu").slideUp(500);
   });
 
 }); 
