@@ -11,7 +11,7 @@ $(document).ready(function(){
     $(".dropdown-menu").slideUp(500);
   });
 
-  $('.nav-link').mouseenter(function() {
+  $('.no').mouseenter(function() {
         $(".dropdown-menu").slideUp(500);
   });
 
