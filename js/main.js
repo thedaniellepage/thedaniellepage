@@ -13,5 +13,7 @@ $(document).ready(function(){
 
   $('.dropdown-menu').mouseenter(function() {
         $(".dropdown-menu").show();
-    }); 
+  });
+
+}); 
 
