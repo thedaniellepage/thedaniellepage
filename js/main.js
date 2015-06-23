@@ -6,11 +6,11 @@ $(document).ready(function() {
   $('.header-nav > li').bind('mouseout', closeSubMenu);
 
   function openSubMenu() {
-    $(this).find('li').css('visibility', 'visible');
+    $(this).find('.dropdown-menu').css('visibility', 'visible');
   };
   
   function closeSubMenu() {
-    $(this).find('li').css('visibility', 'hidden');
+    $(this).find('.dropdown-menu).css('visibility', 'hidden');
   };
 
 
