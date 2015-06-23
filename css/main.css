@@ -166,7 +166,7 @@ td {
 }
 
 .header-nav li ul li {
-	display:inline;
+	display:block;
 	float:none;
 }
 
