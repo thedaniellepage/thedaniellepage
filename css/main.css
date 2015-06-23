@@ -165,12 +165,12 @@ td {
 	padding:1em;
 	background-color:rgb(248, 114, 77);
 	list-style:none;
-	border-top:1px solid black;
 }
 
 .sub-link {
 	display:block;
 	color:black;
+	padding:1em;
 }
 
 .header-nav li ul li {
@@ -191,7 +191,6 @@ td {
 }
 
 .nav-link {
-	border-radius:.75em;
 	padding-left:.5em;
 	padding-right:.5em;
 	padding-top:.25em;
