@@ -7,9 +7,8 @@ $(document).ready(function(){
     $(".dropdown-menu").slideDown(500);
   });
 
-  $(".dropdown-menu,.dropdown-link").mouseleave(function(){
+  $(".dropdown-menu").mouseleave(function(){
     $(".dropdown-menu").slideUp(500);
   });
-
 
 });
