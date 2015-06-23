@@ -1,7 +1,7 @@
 
 /*--- Dropdown Menu Functionality ---*/
 
-$(document).ready(function() {
+$(document).ready(function(x, y) {
   $('.heaver-nav > li').bind('mouseover', openSubMenu);
   $('.header-nav > li').bind('mouseout', closeSubMenu);
 
