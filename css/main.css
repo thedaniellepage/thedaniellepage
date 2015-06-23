@@ -161,7 +161,8 @@ td {
 
 .dropdown-menu {
 	visibility:hidden;
-	display:inline-block;
+	position:absolute;
+	list-style:none;
 	border-top:1px solid #fff;
 }
 
