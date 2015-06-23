@@ -161,9 +161,10 @@ td {
 .dropdown-menu {
 	display:none;
 	position:absolute;
-	margin-right:1em;
+	margin-left:-1em;
+	background-color:rgb(248, 114, 77);
 	list-style:none;
-	border-top:1px solid #fff;
+	border-top:1px solid black;
 }
 
 .header-nav li ul li {
@@ -197,7 +198,7 @@ td {
 }
 
 .nav-link:hover {
-	background-color: rgba(248, 114, 77, .5);
+	background-color: rgb(248, 114, 77);
 }
 
 .nav-link.active {
