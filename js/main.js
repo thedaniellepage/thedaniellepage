@@ -10,7 +10,7 @@ $(document).ready(function() {
   };
   
   function closeSubMenu() {
-    $(this).find('.dropdown-menu).css('visibility', 'hidden');
+    $(this).find('.dropdown-menu').css('visibility', 'hidden');
   };
 
 
