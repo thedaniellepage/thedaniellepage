@@ -5,12 +5,14 @@
             <ul class="header-nav">
                 {% for link in site.data.nav %}
                     {% if link.subcategories != null %}
-                        <li class="dropdown">
-                            <a href="{{ site.url }}{{ link.url }}" class="nav-link" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}</a>
+                        <li>
+                            <a href="{{ site.url }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
                                 <ul class="dropdown-menu”>
                                     {% for subcategory in link.subcategories %}
                                         <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                                </ul>
                                     {% endfor %}
+                        </li>
                     {% else %}
                         <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>{% endif %}</li>
                 {% endfor %}
