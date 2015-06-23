@@ -12,7 +12,7 @@ $(document).ready(function(){
   });
 
   $('.dropdown-menu').mouseenter(function() {
-        $(this).show();
+        $(".dropdown-menu").show();
     });
 
 });
