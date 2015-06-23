@@ -1,16 +1,14 @@
 
 /*--- Dropdown Menu Functionality ---*/
 
-$(document).ready(function() {
-  $('.heaver-nav > li').bind('mouseover', openSubMenu);
-  $('.header-nav > li').bind('mouseout', closeSubMenu);
+$(document).ready(function(){
 
-  function openSubMenu() {
-    $('.dropdown-menu-hidden').switchClass('dropdown-menu-hidden', 'dropdown-menu-visible', 1000);
-  };
-  
-  function closeSubMenu() {
-    $('.dropdown-menu-visible').switchClass('dropdown-menu-visible', 'dropdown-menu--hidden', 1000);
+  $(".dropdown-link").mouseenter(function(){
+    $(".dropdown-menu").slideDown(1000);
+  });
+
+  $(".dropdown-link").mouseleave(function(){
+    $(".dropdown-menu").slideUp(1000);
   };
 
 

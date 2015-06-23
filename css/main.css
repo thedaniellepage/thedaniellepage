@@ -158,15 +158,8 @@ td {
 	margin-bottom:.5em;
 }
 
-.dropdown-menu-hidden {
-	visibility:hidden;
-	position:absolute;
-	list-style:none;
-	border-top:1px solid #fff;
-}
-
-.dropdown-menu-visible {
-	visibility:visible;
+.dropdown-menu {
+	display:none;
 	position:absolute;
 	list-style:none;
 	border-top:1px solid #fff;
