@@ -161,7 +161,8 @@ td {
 .dropdown-menu {
 	display:none;
 	position:absolute;
-	margin-left:-1em;
+	margin-left:-2em;
+	padding:1em;
 	background-color:rgb(248, 114, 77);
 	list-style:none;
 	border-top:1px solid black;
