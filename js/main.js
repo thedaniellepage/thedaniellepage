@@ -11,4 +11,8 @@ $(document).ready(function(){
     $(".dropdown-menu").slideUp(500);
   });
 
+  $('.dropdown-menu').mouseenter(function() {
+        $(this).show();
+    });
+
 });
