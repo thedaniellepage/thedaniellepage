@@ -1,7 +1,7 @@
 
 /*--- Dropdown Menu Functionality ---*/
 
-$(document).ready(function(x, y) {
+$(document).ready(function() {
   $('.heaver-nav > li').bind('mouseover', openSubMenu);
   $('.header-nav > li').bind('mouseout', closeSubMenu);
 
@@ -10,7 +10,7 @@ $(document).ready(function(x, y) {
   };
   
   function closeSubMenu() {
-    $('.dropdown-menu-visible').switchClass('dropdown-menu-visible', 'dropdown-menu-hidden', 1000);
+    $('.dropdown-menu-visible').switchClass('dropdown-menu-visible', 'dropdown-menu--hidden', 1000);
   };
 
 
