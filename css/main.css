@@ -248,15 +248,15 @@ td {
 
 @media (min-width:1025px){
 
-.col {
-	float: left;
-	width: 33.33%;
-	padding:2em;
-}
+	.col {
+		float: left;
+		width: 33.33%;
+		padding:2em;
+	}
 
-.col-head {
-	text-align:left;
-}
+	.col-head {
+		text-align:left;
+	}
 
 }
 
