@@ -72,10 +72,9 @@ td {
 
 .category-blurb {
 	text-indent: .5em;
-	margin-top: 0 !important;
 	text-align:left;
 	padding: 0 .4em;
-	margin: 0 auto;
+	margin: 0 auto 1.5em auto;
 }
 
 .link-button {
@@ -258,7 +257,7 @@ td {
 
 @media (max-width:1025px) {
 	.col-head {
-		text-align:center;
+		text-align:center!important;
 	}
 }
 
