@@ -177,6 +177,24 @@ td {
 	margin-bottom:.5em;
 }
 
+.nav-link {
+	padding-left:.5em;
+	padding-right:.5em;
+	padding-top:.25em;
+	padding-bottom:.25em;
+	color:black;
+	margin-right:.5em;
+	margin-left:.25em;
+	text-decoration:none;
+	display:block;
+}
+
+.sub-link {
+	display:block;
+	color:black;
+	padding:0 1em;
+}
+
 .dropdown-menu {
 	display:none;
 	position:absolute;
@@ -184,12 +202,6 @@ td {
 	padding:1em;
 	background-color:rgb(248, 114, 77);
 	list-style:none;
-}
-
-.sub-link {
-	display:block;
-	color:black;
-	padding:0 1em;
 }
 
 .header-nav li ul li {
@@ -215,18 +227,6 @@ td {
 	}
 }
 
-.nav-link {
-	padding-left:.5em;
-	padding-right:.5em;
-	padding-top:.25em;
-	padding-bottom:.25em;
-	color:black;
-	margin-right:.5em;
-	margin-left:.25em;
-	text-decoration:none;
-	display:block;
-}
-
 .nav-link:hover {
 	background-color: rgb(248, 114, 77);
 }
@@ -238,9 +238,43 @@ td {
 .nav-link.active:hover {
 
 }
+/* ------- Mobile Navigation -------- */
+
+.hamburger {
+	display:none;
+	float:right;
+	max-width:200px;
+}
+
+@media (max-width:820px){
+	.hamburger {
+		display:inline-block;
+	}
+}
 
 .mobile-nav {
 	display:none;
+	list-style:none;
+}
+
+.header-nav li {
+	margin-bottom:.5em;
+}
+
+.mobile-nav-link {
+	padding:.25em .5em;
+	color:black;
+	margin-right:.5em;
+	margin-left:.25em;
+	text-decoration:none;
+	display:block;
+}
+
+.mobile-sub-link {
+	display:block;
+	color:black;
+	background-color:rgb(248, 114, 77);
+	padding:.25em .5em;
 }
 
 
