@@ -79,7 +79,7 @@ td {
 
 @media (max-width:1025px){
 	.category-blurb{
-		padding: 0 1em;
+		padding: 0 1em!important;
 	}
 }
 
