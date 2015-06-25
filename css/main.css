@@ -75,6 +75,7 @@ td {
 	margin-top: 0 !important;
 	text-align:left;
 	padding: 0 1em;
+	margin: 0 auto;
 }
 
 .link-button {
@@ -252,6 +253,11 @@ td {
 	width: 33.33%;
 	padding:2em;
 }
+
+.col-head {
+	text-align:left;
+}
+
 }
 
 .content-col {
@@ -263,7 +269,7 @@ td {
 }
 
 .col-head {
-	text-align:left;
+	text-align:center;
 }
 
 /*---- Bootstrap ---- */
