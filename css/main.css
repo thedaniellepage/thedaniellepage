@@ -160,6 +160,13 @@ td {
 	}
 }
 
+@media (max-width:420px){
+	.site-title {
+		font-size: 1.5em;
+		transition: font 1s ease;
+	}
+}
+
 .site-title:hover {
 
 }
