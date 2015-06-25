@@ -239,7 +239,9 @@ td {
 
 }
 
-.mobile-nav
+.mobile-nav {
+	display:none;
+}
 
 
 /*---- Footer ----*/
