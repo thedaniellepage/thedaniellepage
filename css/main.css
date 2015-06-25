@@ -250,7 +250,7 @@ td {
 .hamburger {
 	display:none;
 	float:right;
-	max-width:100px;
+	max-width:85px;
 	cursor:pointer;
 	margin-top:-4em;
 }
