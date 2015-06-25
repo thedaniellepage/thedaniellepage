@@ -106,13 +106,12 @@ td {
 
 #wrap {
 	min-height:100%;
-	overflow:auto;
 }
 
 #main {
 	padding bottom:180px;
 	background-color:white;
-	min-height:800px;
+	min-height:1000px;
 }
 
 @media (max-width:1050px){
@@ -239,7 +238,7 @@ td {
 .col {
 	float: left;
 	width: 33.33%;
-	padding:.4em;
+	padding:.8em;
 }
 }
 
