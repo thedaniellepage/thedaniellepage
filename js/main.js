@@ -35,7 +35,7 @@ else{
 
 // ------ Media Queries ------ //
 
-  enquire.register("screen and (max-width:1025px)"), function() {
+  enquire.register("screen and (max-width:1025px)", function() {
     $('#3').insertBefore("#2");
     $('#5').insertBefore("#2");
   });
