@@ -190,6 +190,7 @@ td {
 .header-nav li {
 	/*display: inline-block;*/
 	margin-bottom:.5em;
+	visibility:hidden;
 }
 
 .dropdown-menu {
@@ -215,7 +216,7 @@ td {
 @media (min-width:820px){
 	.header-nav li {
 		display:inline-block;
-		visibility:hidden;
+		visibility: visible;
 	}
 	.navbar {
 	float: right;
