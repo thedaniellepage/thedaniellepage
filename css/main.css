@@ -105,6 +105,16 @@ td {
 	clear:both;
 }
 
+@media (max-width:1100px){
+	.container {
+		-webkit-transition: max-width 500 ease;
+    	-moz-transition: max-width 500 ease;
+    	-o-transition: max-width 500 ease;
+    	transition: max-width 500 ease;
+		max-width:100%;
+	}
+}
+
 #wrap {
 	min-height:100%;
 }
