@@ -41,8 +41,8 @@ else{
       $('#5').insertBefore("#2");
     },
     unmatch : function() {
-      $('#3').insertAfter("#2");
-      $('#5').insertAfter("#4");
+      $('#2').insertBefore("#3");
+      $('#4').insertBefore("#5");
     }
 
   });
