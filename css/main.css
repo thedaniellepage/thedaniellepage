@@ -106,7 +106,7 @@ td {
 	width:40px;
 }
 
-/* ---- Layout ---- */
+/* ------- Layout ------- */
 
 .container {
 	max-width: 85%; /* max-width will scale to the browser, while just `width` will always be the value */
@@ -115,7 +115,7 @@ td {
 	clear:both;
 }
 
-@media (max-width:1100px){
+@media (max-width:1130px){
 	.container {
 		transition: max-width .5s ease;
 		-webkit-transition: max-width .5s ease;
@@ -164,7 +164,7 @@ td {
 
 }
 
-/* ---- Navigation ---- */
+/* ------- Navigation ------- */
 
 .header-nav {
 	list-style: none;
@@ -238,6 +238,8 @@ td {
 .nav-link.active:hover {
 
 }
+
+.mobile-nav
 
 
 /*---- Footer ----*/
