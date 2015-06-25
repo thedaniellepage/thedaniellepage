@@ -39,6 +39,11 @@ else{
     match : function() {
       $('#3').insertBefore("#2");
       $('#5').insertBefore("#2");
+    });
+    unmatch : function() {
+      $('#3').insertAfter("#2");
+      $('#5').insertAfter("#2");
+    });
+
   });
-});
 
