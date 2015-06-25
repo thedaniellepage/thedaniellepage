@@ -222,6 +222,7 @@ td {
 
 #site-footer {
 	background-color:#F8724D;
+	border-top: 2px solid black;
 	height: 180px;
 	margin-top:3em;
 	padding:2em 0;
