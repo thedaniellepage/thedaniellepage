@@ -254,10 +254,12 @@ td {
 		padding:2em;
 	}
 
-	.col-head {
-		text-align:left;
-	}
+}
 
+@media (max-width:1025px) {
+	.col-head {
+		text-align:center;
+	}
 }
 
 .content-col {
@@ -269,7 +271,7 @@ td {
 }
 
 .col-head {
-	text-align:center;
+	text-align:left;
 }
 
 /*---- Bootstrap ---- */
