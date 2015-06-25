@@ -215,6 +215,7 @@ td {
 @media (min-width:820px){
 	.header-nav li {
 		display:inline-block;
+		visibility:hidden;
 	}
 	.navbar {
 	float: right;
