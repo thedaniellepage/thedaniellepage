@@ -106,6 +106,7 @@ td {
 
 #wrap {
 	min-height:100%;
+	overflow:auto;
 }
 
 #main {
@@ -237,8 +238,8 @@ td {
 
 .col {
 	float: left;
-	width: 32%;
-	padding:.4em;
+	width: 33.33%;
+	padding:.8em;
 }
 }
 
