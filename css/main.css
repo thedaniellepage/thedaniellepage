@@ -113,11 +113,11 @@ td {
 
 @media (max-width:1100px){
 	.container {
-		transition: max-width 500 ease;
-		-webkit-transition: max-width 500 ease;
-    	-moz-transition: max-width 500 ease;
-    	-o-transition: max-width 500 ease;
-    	transition: max-width 500 ease;
+		transition: max-width .5s ease;
+		-webkit-transition: max-width .5s ease;
+    	-moz-transition: max-width .5s ease;
+    	-o-transition: max-width .5s ease;
+    	transition: max-width .5s ease;
 		max-width:100%;
 	}
 }
