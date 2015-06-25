@@ -16,8 +16,8 @@ $(document).ready(function(){
   });
 
 
-  $(".category-image").onclick(function(){
-  	$(this).css("box-shadow", "0px 0px 0px");
+  $(".category-image").click(function(){
+  	$(this).css("box-shadow", "none");
   });
 
 
