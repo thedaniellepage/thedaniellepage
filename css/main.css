@@ -165,7 +165,7 @@ td {
 
 @media (max-width:900px){
 	.site-title {
-		font-size: 1.8em;
+		font-size: 2em;
 		transition: font 1s ease;
 	}
 }
