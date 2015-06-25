@@ -98,7 +98,7 @@ td {
 /* ---- Layout ---- */
 
 .container {
-	max-width: 1000px; /* max-width will scale to the browser, while just `width` will always be the value */
+	max-width: 95%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin-left: auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
 	margin-right: auto;
 }
