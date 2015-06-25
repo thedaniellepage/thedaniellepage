@@ -73,6 +73,7 @@ td {
 .category-blurb {
 	text-indent: .5em;
 	margin-top: 0 !important;
+	text-align:left;
 }
 
 .link-button {
@@ -250,7 +251,7 @@ td {
 }
 
 .col-head {
-	text-align:center;
+	text-align:left;
 }
 
 /*---- Bootstrap ---- */
