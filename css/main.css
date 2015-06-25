@@ -212,7 +212,7 @@ td {
 	float:none;
 }
 
-@media (min-width:800px){
+@media (min-width:820px){
 	.header-nav li {
 		display:inline-block;
 	}
