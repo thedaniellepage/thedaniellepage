@@ -166,11 +166,12 @@ td {
 
 #wrap {
 	min-height:100%;
+	overflow:auto;
 }
 
 #main {
 	padding bottom:180px;
-	min-height:800px;
+	min-height:900px;
 	background-color:white;
 	margin-top:3.5em;
 }
