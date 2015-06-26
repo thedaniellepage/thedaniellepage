@@ -68,6 +68,7 @@ a:hover {
 	text-align:center;
 	width:100%;
 	border-radius:5px;
+	border-bottom:2px solid black;
 	background-color:#F8724D;
 	display:block;
 	padding:.5em 0;
