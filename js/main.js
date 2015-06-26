@@ -1,16 +1,16 @@
+$(document).ready(function(){
+
 
 /*--- Dropdown Menu Functionality ---*/
 
-$(document).ready(function(){
-
-if(!!('ontouchstart' in window)){//check for touch device
+/* if(!!('ontouchstart' in window)){//check for touch device
 //behaviour and events for touch device
  $(".dropdown-link").click(function(){
     $(".dropdown-menu").slideToggle(500);
   });
 }
 
-else{
+else{ */
   
   $(".dropdown-link").mouseenter(function(){
     $(".dropdown-menu").slideDown(500);
@@ -23,14 +23,21 @@ else{
   $('.no').mouseenter(function() {
         $(".dropdown-menu").slideUp(500);
   });
-}
 
+
+/* ----- Box Shadow Changes on click ------- */
 
   $(".category-image").click(function(){
   	$(this).css("box-shadow", "none");
   });
 
-}); 
+
+/* -------- Hamburger ----------- */
+
+  $('.hamburger').click(function(){
+    $('.mobile-nav').css('display', 'inline-block');
+  });
+
 
 
 // ------ Media Queries ------ //
