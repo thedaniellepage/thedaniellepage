@@ -69,7 +69,12 @@ else{ */
       $('.x').css('display', 'none');
       $('.hamburger').css('display', 'none');
     }
+    unmatch : function() {
+      $('.x').css('display', 'inline-block');
+      $('.hamburger').css('display', 'inline-block');
+    }
   });
+
 
 
 });
