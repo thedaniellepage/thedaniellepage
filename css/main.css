@@ -72,8 +72,12 @@ a:hover {
 }
 
 .box-content {
-	text-indent:1em;
 	padding: 0 1.5em;
+	margin-top:.5em;
+}
+
+.box-para {
+	text-indent:1em;
 	margin: .5em auto;
 }
 
