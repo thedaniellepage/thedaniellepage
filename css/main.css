@@ -295,7 +295,10 @@ td {
 }
 
 @media (min-width:820px){
-	.hamburger .x {
+	.hamburger {
+		display:none;
+	}
+	.x {
 		display:none;
 	}
 }
