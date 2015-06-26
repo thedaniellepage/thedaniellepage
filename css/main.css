@@ -164,9 +164,7 @@ td {
 	}
 }
 
-#wrap {
-	min-height:100%;
-	overflow:auto;
+#wrap {	
 }
 
 #main {
