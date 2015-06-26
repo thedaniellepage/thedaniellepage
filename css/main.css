@@ -308,8 +308,8 @@ td {
 
 .mobile-sub-link {
 	display:block;
-	color:black;
-	background-color:rgb(248, 114, 77);
+	color:white;
+	background-color:black;
 	padding:.25em .5em;
 	margin: .1em 0;
 }
