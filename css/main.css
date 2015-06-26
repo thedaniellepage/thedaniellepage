@@ -286,8 +286,12 @@ td {
 	list-style:none;
 }
 
-.header-nav li {
+.mobile-nav li {
 	margin-bottom:.5em;
+}
+
+.mobile-nav li ul {
+	list-style:none;
 }
 
 .mobile-nav-link {
@@ -304,6 +308,7 @@ td {
 	color:black;
 	background-color:rgb(248, 114, 77);
 	padding:.25em .5em;
+	margin: .1em 0;
 }
 
 
