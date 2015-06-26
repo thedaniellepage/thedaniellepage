@@ -35,7 +35,7 @@ else{ */
 /* -------- Hamburger ----------- */
 
   $('.hamburger').click(function(){
-    $('.mobile-nav').css('display', 'inline-block');
+    $('.mobile-nav').toggleClass('expand');
   });
 
 
