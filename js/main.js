@@ -63,5 +63,16 @@ else{ */
 
   });
 
+  enquire.register("screen and (min-width:820px)",{
+    match : function() {
+      $('.mobile-nav').slideUp(500);
+      $('.x').css('display', 'none');
+      $('.hamburger').css('display', 'none');
+    }
+  });
+
+
+  }
+
 });
 
