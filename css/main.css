@@ -301,6 +301,9 @@ td {
 	.x {
 		display:none;
 	}
+	.mobile-nav, .hamburger, .x {
+		display:none;
+	}
 }
 
 @media (max-width:420px){
