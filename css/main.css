@@ -277,9 +277,6 @@ td {
 	.hamburger {
 		display:inline-block;
 	}
-	.x {
-		display:inline-block;
-	}
 }
 
 @media (max-width:420px){
@@ -308,10 +305,6 @@ td {
 	right:0;
 	clear:both;
 	position:absolute;
-}
-
-.expand {
-	display:inline-block;
 }
 
 .mobile-nav li ul {
