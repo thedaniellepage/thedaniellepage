@@ -35,7 +35,15 @@ else{ */
 /* -------- Hamburger ----------- */
 
   $('.hamburger').click(function(){
-    $('.mobile-nav').slideToggle(500);
+    $('.mobile-nav').slideDown(500);
+    $(this).css("display", "none")
+    $('.x').css("display", 'inline-block')
+  });
+
+    $('.x').click(function(){
+    $('.mobile-nav').slideUp(500);
+    $(this).css("display", "none")
+    $('.hamburger').css("display", 'inline-block')
   });
 
 
