@@ -72,7 +72,8 @@ a:hover {
 
 .box-content {
 	text-indent:5px;
-	padding: 0 2em;
+	padding: 0 1.5em;
+	margin: 0 auto;
 }
 
 /* ---- Homepage ---- */
