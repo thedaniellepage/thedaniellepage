@@ -155,7 +155,7 @@ td {
     	-moz-transition: max-width .5s ease;
     	-o-transition: max-width .5s ease;
     	transition: max-width .5s ease;
-		max-width:97.5%;
+		max-width:95%%;
 	}
 }
 
@@ -163,6 +163,7 @@ td {
 	.container {
 		padding-left:1em;
 		padding-right:1em;
+		max-width: 100%;
 	}
 }
 
