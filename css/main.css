@@ -64,6 +64,12 @@ a:hover {
 	padding-bottom:1.5em;
 }
 
+@media(max-width:830px){
+	.content-box {
+		margin: 1em;
+	}
+}
+
 .box-header {
 	text-align:center;
 	width:100%;
