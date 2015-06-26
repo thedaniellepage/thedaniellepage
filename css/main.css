@@ -284,6 +284,8 @@ td {
 .mobile-nav {
 	display:none;
 	list-style:none;
+	float:right;
+	clear:both;
 }
 
 .mobile-nav li {
