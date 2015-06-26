@@ -17,7 +17,7 @@ else{ */
   });
 
   $(".dropdown-menu").mouseleave(function(){
-    $(".dropdown-menu").slideUp(500);
+    $(".dropdown-menu").slideUp(100);
   });
 
   $('.no').mouseenter(function() {
