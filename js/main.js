@@ -17,11 +17,11 @@ else{ */
   });
 
   $(".dropdown-menu").mouseleave(function(){
-    $(".dropdown-menu").slideUp(100);
+    $(".dropdown-menu").slideUp(200);
   });
 
   $('.no').mouseenter(function() {
-        $(".dropdown-menu").slideUp(500);
+        $(".dropdown-menu").slideUp(200);
   });
 
 
