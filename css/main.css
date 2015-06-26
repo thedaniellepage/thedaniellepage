@@ -52,6 +52,27 @@ a:hover {
 
 }
 
+/* ----- About ----- */
+
+.content-box{
+	max-width:700px;
+	border-radius:5px;
+	box-shadow:(3px 3px 3px 3px rgba(0, 0, 0, .5);
+	margin:1em auto;
+	padding:1.5em;
+}
+
+.box-header{
+	background-color:#F8724D;
+	display:block;
+	padding:.5em 0;
+	margin: 0 auto;
+}
+
+.box-content {
+	text-indent:5px;
+}
+
 /* ---- Homepage ---- */
 
 .categories {
