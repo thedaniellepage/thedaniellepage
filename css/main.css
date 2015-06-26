@@ -57,6 +57,7 @@ a:hover {
 .content-box {
 	max-width:700px;
 	border-radius:5px;
+	border:2px solid black;
 	box-shadow:7px 7px 7px 7px rgba(0, 0, 0, .5);
 	margin:1em auto;
 	margin-top:5em;
