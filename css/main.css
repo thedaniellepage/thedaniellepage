@@ -155,7 +155,7 @@ td {
     	-moz-transition: max-width .5s ease;
     	-o-transition: max-width .5s ease;
     	transition: max-width .5s ease;
-		max-width:100%;
+		max-width:95%;
 	}
 }
 
