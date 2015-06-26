@@ -288,6 +288,10 @@ td {
 	clear:both;
 }
 
+.expand {
+	display:inline-block;
+}
+
 .mobile-nav li {
 	margin-bottom:.5em;
 }
