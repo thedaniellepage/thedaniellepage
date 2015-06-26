@@ -170,8 +170,8 @@ td {
 
 #main {
 	padding bottom:180px;
+	min-height:100%;
 	background-color:white;
-	min-height:1000px;
 	margin-top:3.5em;
 }
 
