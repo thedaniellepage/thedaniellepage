@@ -164,6 +164,11 @@ td {
 		padding-left:1em;
 		padding-right:1em;
 		max-width: 100%;
+		transition: max-width .5s ease;
+		-webkit-transition: max-width .5s ease;
+    	-moz-transition: max-width .5s ease;
+    	-o-transition: max-width .5s ease;
+    	transition: max-width .5s ease;
 	}
 }
 
