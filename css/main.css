@@ -286,6 +286,7 @@ td {
 	list-style:none;
 	float:right;
 	clear:both;
+	position:absolute;
 }
 
 .expand {
