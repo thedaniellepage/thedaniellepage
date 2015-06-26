@@ -267,7 +267,7 @@ td {
 .x {
 	display:none;
 	float:right;
-	max-width:100px;
+	max-width:95px;
 	padding:1em;
 	cursor:pointer;
 	margin-top:-4em;
@@ -289,7 +289,7 @@ td {
     	transition: max-width .5s ease;
 	}
 	.x {
-		max-width:85px;
+		max-width:80px;
 		transition: max-width .5s ease;
 		-webkit-transition: max-width .5s ease;
     	-moz-transition: max-width .5s ease;
