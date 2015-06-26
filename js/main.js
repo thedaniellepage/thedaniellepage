@@ -27,8 +27,11 @@ else{ */
 
 /* ----- Box Shadow Changes on click ------- */
 
-  $(".category-image").click(function(){
+  $(".category-image").mousedown(function(){
   	$(this).css("box-shadow", "none");
+  });
+  $(".category-image").mouseup(function(){
+    $(this).css("box-shadow", "3px 3px 3px 3px rgba(0, 0, 0, .5)");
   });
 
 
