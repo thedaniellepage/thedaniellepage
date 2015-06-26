@@ -71,9 +71,9 @@ a:hover {
 }
 
 .box-content {
-	text-indent:5px;
+	text-indent:8px;
 	padding: 0 1.5em;
-	margin: 0 auto;
+	margin: .25em auto;
 }
 
 /* ---- Homepage ---- */
